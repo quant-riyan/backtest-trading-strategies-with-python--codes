@@ -65,7 +65,10 @@ All code in this repository is explained step-by-step in my YouTube playlist:
 
 [**Click here to watch the full playlist**](https://youtube.com/playlist?list=PLvP9VMC55awTm6bsvfDt87DxIuISGf_Zf&si=6JNEgVElY5LRWmyw)
 
-Each video covers:
+The videos cover:
+- Create simple to complicated trading strategies with stop-loss and take-profit
+- Optimize your strategy for maximum return or sharpe ratio
+- How to code custom indicators
 - The mathematical formula behind each indicator
 - Step-by-step coding in VS Code / Jupyter
 - Backtest results and interpretation
@@ -84,10 +87,10 @@ Keep using the code as-is in your own Python environment.
 ### Option 2: Use our platform
 Copy-paste your strategy class into **[our platform's Python editor](https://algotradium.com)** and get:
 
-- **Unlimited backtests** on daily timeframe (forex & crypto)
-- **One-click Telegram signal bots** – run 24/7, no server needed
-- **Live performance monitoring** – track your bot's win rate and drawdown in real-time
-- **Marketplace** – sell your strategies to other traders
+- **Unlimited backtests** on forex & crypto (daily timeframe is free)
+- **One-click Telegram signal bots** – run 24/7, no server needed (for subscribed users only)
+- **Live performance monitoring** – track your bot's win rate, drawdown, and trades history in real-time
+- **Marketplace** – buy other quants advanced strategies and receive signals
 
 👉 **[Start for free](https://algotradium.com)** – no credit card required.
 
@@ -97,6 +100,7 @@ Copy-paste your strategy class into **[our platform's Python editor](https://alg
 
 Create a `requirements.txt` file with:
 
+```bash
 backtesting==0.3.3
 pandas==1.5.3
 numpy==1.24.3
@@ -104,3 +108,10 @@ matplotlib==3.7.1
 pandas-ta==0.3.14b0
 yfinance==0.2.28
 jupyter==1.0.0
+```
+
+Install all dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
