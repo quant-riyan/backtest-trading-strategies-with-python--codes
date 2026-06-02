@@ -56,6 +56,7 @@ All code is explained step-by-step in the accompanying **YouTube playlist**. You
 ```bash
 git clone https://github.com/quant-riyan/backtest-trading-strategies-with-python--codes.git
 cd trading-strategies-backtesting
+```
 
 
 ## 📺 YouTube Playlist
