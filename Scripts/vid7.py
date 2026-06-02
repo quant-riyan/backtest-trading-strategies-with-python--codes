@@ -23,13 +23,13 @@ class IchimokuStrategy(Strategy):
     def next(self):
         enter_price = self.data.Close[-1]
 
-        # Buy Condition: Tenkan-Sen crossover Kijun-Sen and RSI < lower-bound
+        # Buy Condition: Tenkan-Sen crossover Kijun-Sen and price > Ichimoku cloud
         if self.kijun_sen < self.tenkan_sen and self.data.Close > self.cloud_top and\
               self.data.Close > self.cloud_bottom and not self.position:
             self.buy(sl = enter_price - self.sl * self.kijun_sen, tp = enter_price * (1.0 +  self.tp ))
         
         
-        # Sell Condition: Kijun-Sen crossover Tenkan-Sen and RSI > upper_bound
+        # Sell Condition: Kijun-Sen crossover Tenkan-Sen and price < Ichimoku cloud
         if self.kijun_sen > self.tenkan_sen and self.data.Close < self.cloud_top and\
               self.data.Close < self.cloud_bottom and self.position:
             self.position.close()
