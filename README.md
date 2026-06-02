@@ -54,7 +54,6 @@ All code is explained step-by-step in the accompanying **YouTube playlist**. You
 
 ```bash
 git clone https://github.com/quant-riyan/backtest-trading-strategies-with-python--codes.git
-cd trading-strategies-backtesting
 ```
 
 
@@ -84,7 +83,7 @@ Once you have backtested and validated your strategy, you can:
 Keep using the code as-is in your own Python environment.
 
 ### Option 2: Use our platform
-Copy-paste your strategy class into **[our platform's Python editor](https://algotradium.com)** and get:
+Copy-paste your strategy class into **[our platform](https://algotradium.com)** and get:
 
 - **Unlimited backtests** on forex & crypto (daily timeframe is free)
 - **One-click Telegram signal bots** – run 24/7, no server needed (for subscribed users only)
