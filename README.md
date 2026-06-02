@@ -115,3 +115,40 @@ Install all dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
+## 📁 Sample Data Format
+
+Your CSV file should have the following columns (some sample data are available in the Data folder):
+
+| Date | Open | High | Low | Close | Volume |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 2020-01-01 | 7200.5 | 7300.2 | 7150.0 | 7250.3 | 1000000 |
+| 2020-01-02 | 7250.3 | 7400.1 | 7230.0 | 7380.5 | 1200000 |
+
+You can download free historical data from:
+- Yahoo Finance (using `yfinance` library)
+- Binance (crypto)
+- FXCM (forex)
+
+---
+
+## 🤝 Contributing
+
+Found a bug or have an improvement? Feel free to reach me at support@algotradium.com.
+
+---
+
+## 📬 Connect with Me
+
+- 📺 **YouTube**: [Riyan](https://youtube.com/@QuantRiyan)
+<!-- - 💬 **Discord**: [Join our community](https://discord.gg/yourinvite) -->
+- 🚀 **Platform**: [algotradium.com](https://algotradium.com)
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you found it helpful!**
+
+**Happy backtesting!**
+
+</div>
