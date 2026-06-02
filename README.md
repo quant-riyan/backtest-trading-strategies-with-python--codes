@@ -5,14 +5,13 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![backtesting.py](https://img.shields.io/badge/backtesting.py-0.3.3-green.svg)](https://github.com/kernc/backtesting.py)
 [![pandas](https://img.shields.io/badge/pandas-1.5.0-red.svg)](https://pandas.pydata.org/)
-[![YouTube](https://img.shields.io/badge/YouTube-Playlist-red.svg)](https://youtube.com/playlist?list=YOUR_PLAYLIST_ID)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![YouTube](https://img.shields.io/badge/YouTube-Playlist-red.svg)](https://youtube.com/playlist?list=PLvP9VMC55awTm6bsvfDt87DxIuISGf_Zf&si=6JNEgVElY5LRWmyw)
 
 **Learn algorithmic trading by building strategies from scratch.**
 **Backtest, optimize, and deploy your own trading bots.**
 
-[📺 Watch the Full YouTube Playlist](https://youtube.com/playlist?list=YOUR_PLAYLIST_ID) • 
-[🚀 Try Our Platform](https://yourplatform.com)
+[📺 Watch the Full YouTube Playlist](https://youtube.com/playlist?list=PLvP9VMC55awTm6bsvfDt87DxIuISGf_Zf&si=6JNEgVElY5LRWmyw) • 
+[🚀 Try Our Platform](https://algotradium.com)
 
 </div>
 
@@ -27,7 +26,7 @@ This repository contains complete, production-ready Python code for **backtestin
 - ✅ **Parameter optimization** (find the best settings automatically)
 - ✅ **Ready to deploy** (copy-paste into any Python environment)
 
-All code is explained step-by-step in the accompanying **YouTube playlist**. You can run these notebooks locally, or paste them directly into **[our platform](https://yourplatform.com)** to backtest, create Telegram signal bots, and sell your strategies on the marketplace.
+All code is explained step-by-step in the accompanying **YouTube playlist**. You can run these notebooks locally, or paste them directly into **[our platform](https://algotradium.com)** to backtest, create Telegram signal bots, and sell your strategies on the marketplace.
 
 ---
 
