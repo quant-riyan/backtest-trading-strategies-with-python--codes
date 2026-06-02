@@ -1,9 +1,6 @@
 from backtesting import Backtest, Strategy
-from backtesting.lib import crossover
 from backtesting.test import GOOG
-
 import pandas as pd
-import numpy as np
 
 class IchimokuStrategy(Strategy):
     sl = 0.08
@@ -38,7 +35,7 @@ class IchimokuStrategy(Strategy):
             self.position.close()
 
 
-bt = Backtest(GOOG, IchimokuStrategy, commission=0.001, exclusive_orders=True)
+bt = Backtest(GOOG, IchimokuStrategy, cash = 10_000_000, commission=0.001, exclusive_orders=True)
 
 stats = bt.run()
 print(stats)
