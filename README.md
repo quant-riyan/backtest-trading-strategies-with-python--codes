@@ -62,7 +62,7 @@ cd trading-strategies-backtesting
 
 All code in this repository is explained step-by-step in my YouTube playlist:
 
-[**Click here to watch the full playlist**](https://youtube.com/playlist?list=YOUR_PLAYLIST_ID)
+[**Click here to watch the full playlist**](https://youtube.com/playlist?list=PLvP9VMC55awTm6bsvfDt87DxIuISGf_Zf&si=6JNEgVElY5LRWmyw)
 
 Each video covers:
 - The mathematical formula behind each indicator
@@ -96,3 +96,10 @@ Copy-paste your strategy class into **[our platform's Python editor](https://alg
 
 Create a `requirements.txt` file with:
 
+backtesting==0.3.3
+pandas==1.5.3
+numpy==1.24.3
+matplotlib==3.7.1
+pandas-ta==0.3.14b0
+yfinance==0.2.28
+jupyter==1.0.0
